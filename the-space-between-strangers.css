@@ -1,0 +1,416 @@
+.blog-post-header6-wrapper {
+  display: contents;
+}
+.blog-post-header6-blog-post-header3 {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.blog-post-header6-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.blog-post-header6-breadcrumbs {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+}
+.blog-post-header6-category {
+  text-align: center;
+}
+.blog-post-header6-content1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.blog-post-header6-title {
+  text-align: center;
+}
+.blog-post-header6-read-time {
+  text-align: center;
+}
+.blog-post-header6-content2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.blog-post-header6-author-image {
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+.blog-post-header6-author {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+}
+.blog-post-header6-time {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+.the-space-between-strangers-fragment10 {
+  display: contents;
+}
+.the-space-between-strangers-text10 {
+  display: inline-block;
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment11 {
+  display: contents;
+}
+.the-space-between-strangers-text11 {
+  display: inline-block;
+}
+.the-space-between-strangers-fragment12 {
+  display: contents;
+}
+.the-space-between-strangers-text12 {
+  color: var(--dl-color-theme-primary2);
+  display: inline-block;
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment13 {
+  display: contents;
+}
+.the-space-between-strangers-text13 {
+  display: inline-block;
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment14 {
+  display: contents;
+}
+.the-space-between-strangers-text14 {
+  color: var(--dl-color-theme-primary2);
+  display: inline-block;
+  font-family: "ReallyPetshop";
+}
+
+.content-list1-wrapper {
+  display: contents;
+}
+.content-list1-container {
+  width: 100%;
+  height: 2374px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.content-list1-max-width {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+.content-list1-content {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.content-list1-ul {
+  height: 2458px;
+  align-items: flex-start;
+}
+.content-list1-heading11 {
+  align-self: flex-start;
+}
+.content-list1-content11 {
+  height: 847px;
+}
+.content-list1-heading12 {
+  align-self: flex-start;
+}
+.content-list1-content12 {
+  height: 583px;
+}
+.content-list1-heading13 {
+  align-self: flex-start;
+}
+.content-list1-content13 {
+  height: 418px;
+}
+.content-list1-heading14 {
+  align-self: flex-start;
+}
+.content-list1-content14 {
+  height: 301px;
+}
+.the-space-between-strangers-fragment15 {
+  display: contents;
+}
+.the-space-between-strangers-text15 {
+  display: inline-block;
+}
+.the-space-between-strangers-fragment16 {
+  display: contents;
+}
+.the-space-between-strangers-text34 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment17 {
+  display: contents;
+}
+.the-space-between-strangers-text35 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment18 {
+  display: contents;
+}
+.the-space-between-strangers-text36 {
+  display: inline-block;
+}
+.the-space-between-strangers-text37 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text38 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text39 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text40 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text41 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text42 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text43 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text44 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text45 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment19 {
+  display: contents;
+}
+.the-space-between-strangers-text47 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment20 {
+  display: contents;
+}
+.the-space-between-strangers-text48 {
+  display: inline-block;
+}
+.the-space-between-strangers-text49 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text50 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text51 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text52 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text53 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment21 {
+  display: contents;
+}
+.the-space-between-strangers-text57 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment22 {
+  display: contents;
+}
+.the-space-between-strangers-text58 {
+  display: inline-block;
+}
+.the-space-between-strangers-text59 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text60 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text61 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text62 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text63 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text64 {
+  font-family: "Poppins";
+}
+
+
+.the-space-between-strangers-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.the-space-between-strangers-fragment10 {
+  display: contents;
+}
+.the-space-between-strangers-text10 {
+  display: inline-block;
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment11 {
+  display: contents;
+}
+.the-space-between-strangers-text11 {
+  display: inline-block;
+}
+.the-space-between-strangers-fragment12 {
+  display: contents;
+}
+.the-space-between-strangers-text12 {
+  color: var(--dl-color-theme-primary2);
+  display: inline-block;
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment13 {
+  display: contents;
+}
+.the-space-between-strangers-text13 {
+  display: inline-block;
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment14 {
+  display: contents;
+}
+.the-space-between-strangers-text14 {
+  color: var(--dl-color-theme-primary2);
+  display: inline-block;
+  font-family: "ReallyPetshop";
+}
+.the-space-between-strangers-fragment15 {
+  display: contents;
+}
+.the-space-between-strangers-text15 {
+  display: inline-block;
+}
+.the-space-between-strangers-fragment16 {
+  display: contents;
+}
+.the-space-between-strangers-text34 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment17 {
+  display: contents;
+}
+.the-space-between-strangers-text35 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment18 {
+  display: contents;
+}
+.the-space-between-strangers-text36 {
+  display: inline-block;
+}
+.the-space-between-strangers-text37 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text38 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text39 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text40 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text41 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text42 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text43 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text44 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text45 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment19 {
+  display: contents;
+}
+.the-space-between-strangers-text47 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment20 {
+  display: contents;
+}
+.the-space-between-strangers-text48 {
+  display: inline-block;
+}
+.the-space-between-strangers-text49 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text50 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text51 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text52 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text53 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment21 {
+  display: contents;
+}
+.the-space-between-strangers-text57 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.the-space-between-strangers-fragment22 {
+  display: contents;
+}
+.the-space-between-strangers-text58 {
+  display: inline-block;
+}
+.the-space-between-strangers-text59 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text60 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text61 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text62 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text63 {
+  font-family: "Poppins";
+}
+.the-space-between-strangers-text64 {
+  font-family: "Poppins";
+}

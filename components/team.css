@@ -1,0 +1,468 @@
+.team-team12 {
+  padding-bottom: 0px;
+}
+.team-max-width {
+  gap: var(--dl-space-space-fiveunits);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.team-section-title {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.team-content1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.team-content2 {
+  gap: var(--dl-space-space-sixunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-direction: column;
+}
+.team-content3 {
+  gap: var(--dl-space-space-fourunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.team-row1 {
+  gap: 64px;
+  display: flex;
+  max-width: 800px;
+  align-self: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.team-card1 {
+  gap: 24px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.team-image1 {
+  width: 100%;
+  height: 341px;
+  object-fit: cover;
+}
+.team-content4 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.team-title1 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.team-text12 {
+  font-style: normal;
+  font-weight: 600;
+}
+.team-text14 {
+  text-align: center;
+}
+.team-social-icons1 {
+  gap: 14px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+.team-card2 {
+  gap: 24px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.team-image2 {
+  width: 100%;
+  height: 337px;
+  object-fit: cover;
+}
+.team-content5 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.team-title2 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.team-text15 {
+  font-style: normal;
+  font-weight: 600;
+}
+.team-text17 {
+  text-align: center;
+}
+.team-row2 {
+  gap: var(--dl-space-space-fourunits);
+  display: flex;
+  max-width: 800px;
+  align-self: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.team-card3 {
+  gap: 24px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  max-width: 600px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.team-image3 {
+  width: 100%;
+  height: 325px;
+  object-fit: cover;
+}
+.team-content6 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.team-title3 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.team-text18 {
+  font-style: normal;
+  font-weight: 600;
+}
+.team-text20 {
+  text-align: center;
+}
+.team-social-icons2 {
+  gap: 14px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+.team-card4 {
+  gap: 24px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  max-width: 600px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.team-image4 {
+  width: 100%;
+  height: 331px;
+  object-fit: cover;
+}
+.team-content7 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.team-title4 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.team-text21 {
+  font-style: normal;
+  font-weight: 600;
+}
+.team-text23 {
+  text-align: center;
+}
+.team-social-icons3 {
+  gap: 14px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+.team-content8 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.team-content9 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.team-text25 {
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: 150%;
+  font-stretch: normal;
+}
+.team-button {
+  width: 100%;
+  max-width: 300px;
+}
+.team-text26 {
+  color: var(--dl-color-theme-neutral-light);
+}
+.team-fragment10 {
+  display: contents;
+}
+.team-text27 {
+  display: inline-block;
+}
+.team-fragment11 {
+  display: contents;
+}
+.team-text28 {
+  display: inline-block;
+}
+.team-fragment12 {
+  display: contents;
+}
+.team-text29 {
+  display: inline-block;
+}
+.team-fragment13 {
+  display: contents;
+}
+.team-text30 {
+  display: inline-block;
+}
+.team-fragment14 {
+  display: contents;
+}
+.team-text31 {
+  display: inline-block;
+}
+.team-fragment15 {
+  display: contents;
+}
+.team-text32 {
+  display: inline-block;
+}
+.team-fragment16 {
+  display: contents;
+}
+.team-text35 {
+  display: inline-block;
+}
+.team-fragment17 {
+  display: contents;
+}
+.team-text36 {
+  display: inline-block;
+}
+.team-fragment18 {
+  display: contents;
+}
+.team-text37 {
+  display: inline-block;
+}
+.team-fragment19 {
+  display: contents;
+}
+.team-text40 {
+  display: inline-block;
+}
+.team-fragment20 {
+  display: contents;
+}
+.team-text41 {
+  display: inline-block;
+}
+.team-fragment21 {
+  display: contents;
+}
+.team-text44 {
+  display: inline-block;
+}
+.team-fragment22 {
+  display: contents;
+}
+.team-text49 {
+  display: inline-block;
+}
+.team-fragment23 {
+  display: contents;
+}
+.team-text50 {
+  display: inline-block;
+}
+.team-fragment24 {
+  display: contents;
+}
+.team-text51 {
+  display: inline-block;
+}
+.team-fragment25 {
+  display: contents;
+}
+.team-text52 {
+  display: inline-block;
+}
+.team-fragment26 {
+  display: contents;
+}
+.team-text53 {
+  display: inline-block;
+}
+@media(max-width: 1200px) {
+  .team-image1 {
+    width: 351px;
+    height: 361px;
+  }
+  .team-image2 {
+    width: 373px;
+    height: 363px;
+    padding-bottom: 0px;
+  }
+  .team-image3 {
+    width: 100%;
+    height: 370px;
+  }
+  .team-image4 {
+    width: 100%;
+    height: 373px;
+  }
+  .team-text27 {
+    font-family: Poppins;
+  }
+  .team-text28 {
+    color: var(--dl-color-theme-primary2);
+    font-family: FredokaOne-Regular;
+  }
+  .team-text29 {
+    color: var(--dl-color-theme-primary2);
+    font-size: 20px;
+    font-family: FredokaOne-Regular;
+  }
+  .team-text30 {
+    font-family: Poppins;
+  }
+  .team-text31 {
+    font-family: Poppins;
+  }
+  .team-text33 {
+    font-family: FredokaOne-Regular;
+  }
+  .team-text35 {
+    font-family: Poppins;
+  }
+  .team-text36 {
+    font-family: Poppins;
+  }
+  .team-text38 {
+    font-family: FredokaOne-Regular;
+  }
+  .team-text40 {
+    font-family: Poppins;
+  }
+  .team-text42 {
+    font-family: FredokaOne-Regular;
+  }
+  .team-text44 {
+    color: var(--dl-color-theme-primary2);
+  }
+  .team-text45 {
+    font-family: Poppins;
+  }
+  .team-text46 {
+    font-family: Poppins;
+  }
+  .team-text47 {
+    font-family: Poppins;
+  }
+  .team-text49 {
+    font-family: Poppins;
+  }
+  .team-text50 {
+    font-family: FredokaOne-Regular;
+  }
+  .team-text51 {
+    font-family: Poppins;
+  }
+  .team-text52 {
+    font-family: Poppins;
+  }
+  .team-text53 {
+    color: var(--dl-color-theme-primary2);
+    font-family: ReallyPetshop;
+  }
+}
+@media(max-width: 991px) {
+  .team-row1 {
+    align-items: center;
+    flex-direction: row;
+  }
+  .team-row2 {
+    align-items: center;
+    flex-direction: row;
+  }
+}
+@media(max-width: 767px) {
+  .team-text11 {
+    text-align: center;
+  }
+  .team-row1 {
+    gap: var(--dl-space-space-twounits);
+  }
+  .team-row2 {
+    gap: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .team-row1 {
+    flex-direction: column;
+  }
+  .team-row2 {
+    flex-direction: column;
+  }
+  .team-button {
+    width: 100%;
+  }
+}

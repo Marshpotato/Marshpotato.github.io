@@ -1,0 +1,230 @@
+.recent-writing-layout300 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.recent-writing-max-width {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.recent-writing-section-title {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.recent-writing-text10 {
+  text-align: center;
+}
+.recent-writing-content1 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.recent-writing-text11 {
+  text-align: center;
+}
+.recent-writing-text12 {
+  text-align: center;
+}
+.recent-writing-content2 {
+  gap: 48px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.recent-writing-row {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.recent-writing-feature1 {
+  gap: var(--dl-space-space-twounits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.recent-writing-navlink1 {
+  display: contents;
+}
+.recent-writing-image1 {
+  width: 100%;
+  height: 254px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.recent-writing-content3 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.recent-writing-navlink2 {
+  display: contents;
+}
+.recent-writing-feature1-title {
+  text-align: center;
+  text-decoration: none;
+}
+.recent-writing-feature2 {
+  gap: var(--dl-space-space-twounits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.recent-writing-image2 {
+  width: 100%;
+  height: 254px;
+  object-fit: cover;
+}
+.recent-writing-content4 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.recent-writing-feature3 {
+  gap: var(--dl-space-space-twounits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.recent-writing-image3 {
+  width: 100%;
+  height: 257px;
+  object-fit: cover;
+}
+.recent-writing-content5 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.recent-writing-fragment1 {
+  display: contents;
+}
+.recent-writing-text13 {
+  color: var(--dl-color-theme-primary2);
+  display: inline-block;
+  font-family: "FredokaOne-Regular";
+}
+.recent-writing-fragment2 {
+  display: contents;
+}
+.recent-writing-text14 {
+  color: var(--dl-color-theme-primary2);
+  display: inline-block;
+  font-family: "ReallyPetshop";
+}
+.recent-writing-fragment3 {
+  display: contents;
+}
+.recent-writing-text15 {
+  color: var(--dl-color-theme-primary2);
+  display: inline-block;
+  font-family: "Poppins";
+}
+.recent-writing-fragment4 {
+  display: contents;
+}
+.recent-writing-text16 {
+  color: var(--dl-color-theme-primary2);
+  display: inline-block;
+  font-family: "Poppins";
+}
+.recent-writing-fragment5 {
+  display: contents;
+}
+.recent-writing-text17 {
+  color: var(--dl-color-theme-primary2);
+  display: inline-block;
+  font-family: "FredokaOne-Regular";
+}
+.recent-writing-fragment6 {
+  display: contents;
+}
+.recent-writing-text18 {
+  color: var(--dl-color-theme-primary2);
+  display: inline-block;
+  font-family: "FredokaOne-Regular";
+}
+.recent-writing-fragment7 {
+  display: contents;
+}
+.recent-writing-text19 {
+  color: var(--dl-color-theme-primary2);
+  display: inline-block;
+}
+.recent-writing-fragment8 {
+  display: contents;
+}
+.recent-writing-text20 {
+  color: var(--dl-color-theme-primary2);
+  display: inline-block;
+  font-family: "Poppins";
+}
+.recent-writing-fragment9 {
+  display: contents;
+}
+.recent-writing-text21 {
+  color: var(--dl-color-theme-primary2);
+  display: inline-block;
+  font-family: "Poppins";
+}
+
+@media(max-width: 991px) {
+  .recent-writing-section-title {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .recent-writing-max-width {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .recent-writing-section-title {
+    width: auto;
+  }
+  .recent-writing-text11 {
+    text-align: center;
+  }
+  .recent-writing-row {
+    flex-direction: column;
+  }
+  .recent-writing-feature2 {
+    width: auto;
+  }
+  .recent-writing-feature3 {
+    width: auto;
+  }
+}

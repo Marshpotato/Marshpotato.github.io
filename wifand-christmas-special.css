@@ -1,0 +1,170 @@
+.hero9-wrapper {
+  display: contents;
+}
+.hero9-header30 {
+  gap: var(--dl-space-space-twounits);
+}
+.hero9-image {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.hero9-container {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0);
+}
+.hero9-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  flex-direction: column;
+}
+.hero9-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.hero9-text1 {
+  text-align: center;
+}
+.hero9-text2 {
+  text-align: center;
+}
+.hero9-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+.hero9-text3 {
+  text-align: center;
+}
+.hero9-text4 {
+  text-align: center;
+}
+.wifand-christmas-special-fragment1 {
+  display: contents;
+}
+.wifand-christmas-special-text1 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  font-family: "ReallyPetshop";
+}
+.wifand-christmas-special-fragment2 {
+  display: contents;
+}
+.wifand-christmas-special-text2 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+.wifand-christmas-special-fragment3 {
+  display: contents;
+}
+.wifand-christmas-special-text3 {
+  display: inline-block;
+}
+.wifand-christmas-special-fragment4 {
+  display: contents;
+}
+.wifand-christmas-special-text4 {
+  display: inline-block;
+}
+
+@media(max-width: 991px) {
+  .hero9-text1 {
+    text-align: center;
+  }
+  .hero9-text2 {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .hero9-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .hero9-button1 {
+    width: 100%;
+  }
+  .hero9-button2 {
+    width: 100%;
+  }
+}
+
+.advent-calendar-wrapper {
+  display: contents;
+}
+.advent-calendar-container1 {
+  width: 100%;
+  height: 731px;
+  display: flex;
+  position: relative;
+  margin-top: 4px;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(217, 217, 217, 0);
+}
+.advent-calendar-container2 {
+  width: 1600px;
+  height: 699px;
+}
+.advent-calendar-container3 {
+  display: contents;
+}
+.advent-calendarroot-class-name {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  background-color: rgba(217, 217, 217, 0);
+}
+
+.wifand-christmas-special-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.wifand-christmas-special-fragment1 {
+  display: contents;
+}
+.wifand-christmas-special-text1 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  font-family: "ReallyPetshop";
+}
+.wifand-christmas-special-fragment2 {
+  display: contents;
+}
+.wifand-christmas-special-text2 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+.wifand-christmas-special-fragment3 {
+  display: contents;
+}
+.wifand-christmas-special-text3 {
+  display: inline-block;
+}
+.wifand-christmas-special-fragment4 {
+  display: contents;
+}
+.wifand-christmas-special-text4 {
+  display: inline-block;
+}

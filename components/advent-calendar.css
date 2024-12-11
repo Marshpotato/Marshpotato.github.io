@@ -1,0 +1,23 @@
+.advent-calendar-container1 {
+  width: 100%;
+  height: 731px;
+  display: flex;
+  position: relative;
+  margin-top: 4px;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(217, 217, 217, 0);
+}
+.advent-calendar-container2 {
+  width: 1600px;
+  height: 699px;
+}
+.advent-calendar-container3 {
+  display: contents;
+}
+.advent-calendarroot-class-name {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  background-color: rgba(217, 217, 217, 0);
+}

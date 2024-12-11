@@ -162,6 +162,7 @@
   background-color: #b594e1;
 }
 
+
 @media(max-width: 991px) {
   .navigation-bar-navbar-interactive {
     background-color: #b594e1;
@@ -205,7 +206,9 @@
 }
 @media(max-width: 479px) {
   .navigation-bar-navbar-interactive {
+    height: 130px;
     padding: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-twounits);
   }
   .navigation-bar-mobile-menu {
     padding: var(--dl-space-space-unit);

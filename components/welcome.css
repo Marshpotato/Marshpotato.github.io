@@ -1,0 +1,106 @@
+.welcome-header1 {
+  height: 452px;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.welcome-max-width {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.welcome-column {
+  gap: 24px;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.welcome-content {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.welcome-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+.welcome-image {
+  width: 560px;
+  height: 347px;
+  object-fit: cover;
+}
+.welcome-fragment1 {
+  display: contents;
+}
+.welcome-text1 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "FredokaOne-Regular";
+}
+.welcome-fragment2 {
+  display: contents;
+}
+.welcome-text2 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "FredokaOne-Regular";
+}
+.welcome-fragment3 {
+  display: contents;
+}
+.welcome-text5 {
+  display: inline-block;
+  font-family: "Poppins-Light";
+}
+.welcome-fragment4 {
+  display: contents;
+}
+.welcome-text6 {
+  display: inline-block;
+  font-family: "ReallyPetshop";
+}
+
+@media(max-width: 991px) {
+  .welcome-container {
+    flex-direction: column;
+  }
+}
+@media(max-width: 767px) {
+  .welcome-heading1 {
+    text-align: center;
+  }
+  .welcome-content1 {
+    text-align: center;
+  }
+  .welcome-actions {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .welcome-header1 {
+    height: 671px;
+  }
+  .welcome-heading1 {
+    width: 297px;
+    height: 282px;
+  }
+  .welcome-actions {
+    flex-direction: column;
+  }
+  .welcome-button1 {
+    width: 100%;
+  }
+  .welcome-button2 {
+    width: 100%;
+  }
+  .welcome-image {
+    width: 125px;
+    height: 259px;
+  }
+}
