@@ -5,6 +5,7 @@
   justify-content: center;
   background-color: var(--dl-color-theme-neutral-light);
 }
+ 
 .navigation-bar-navbar-interactive {
   fill: var(--dl-color-theme-neutral-dark);
   color: #ffffff;
@@ -18,26 +19,36 @@
   padding-right: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
-  background-color: #b594e1;
+  background-color: var(--dl-color-theme-primary2);
 }
+ 
 .navigation-bar-desktop-menu {
   flex: 1;
   display: flex;
   justify-content: space-between;
 }
+ 
 .navigation-bar-image {
   width: 147px;
   height: 156px;
   object-fit: cover;
 }
+ 
 .navigation-bar-links1 {
   gap: var(--dl-space-space-twounits);
   flex: 1;
   display: flex;
   align-items: center;
+  animation-name: none;
   flex-direction: row;
+  animation-delay: 0s;
   justify-content: center;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
+ 
 .navigation-bar-link11 {
   font-size: 20px;
   font-family: "FredokaOne-Regular";
@@ -45,40 +56,56 @@
   border-width: 1px;
   text-decoration: none;
 }
+ 
 .navigation-bar-writing {
   color: #ffffff;
   font-size: 20px;
   font-family: "FredokaOne-Regular";
+  animation-name: none;
+  animation-delay: 0s;
+  text-decoration: none;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
+ 
 .navigation-bar-link31 {
   color: #ffffff;
   font-size: 20px;
   font-family: "FredokaOne-Regular";
 }
+ 
 .navigation-bar-link41 {
   color: #fffefe;
   font-size: 20px;
   font-family: "FredokaOne-Regular";
+  text-decoration: none;
 }
+ 
 .navigation-bar-link51 {
   color: #ffffff;
   font-size: 20px;
   font-family: "FredokaOne-Regular";
   text-decoration: none;
 }
+ 
 .navigation-bar-icon-group1 {
   gap: var(--dl-space-space-twounits);
   display: flex;
   align-items: center;
   margin-left: var(--dl-space-space-twounits);
 }
+ 
 .navigation-bar-burger-menu {
   display: none;
 }
+ 
 .navigation-bar-icon16 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
+ 
 .navigation-bar-mobile-menu {
   top: 0px;
   left: 0px;
@@ -92,11 +119,13 @@
   justify-content: space-between;
   background-color: var(--dl-color-theme-neutral-light);
 }
+ 
 .navigation-bar-nav {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
+ 
 .navigation-bar-top {
   width: 100%;
   display: flex;
@@ -104,18 +133,22 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
+ 
 .navigation-bar-logo {
   height: 3rem;
 }
+ 
 .navigation-bar-close-menu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+ 
 .navigation-bar-icon18 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
+ 
 .navigation-bar-links2 {
   gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
@@ -124,45 +157,64 @@
   align-items: flex-start;
   flex-direction: column;
 }
+ 
 .navigation-bar-icon-group2 {
   gap: var(--dl-space-space-twounits);
   display: flex;
 }
+ 
 .navigation-bar-fragment1 {
   display: contents;
 }
+ 
 .navigation-bar-text1 {
   display: inline-block;
 }
+ 
 .navigation-bar-fragment2 {
   display: contents;
 }
+ 
 .navigation-bar-text2 {
   display: inline-block;
 }
+ 
 .navigation-bar-fragment3 {
   display: contents;
 }
+ 
 .navigation-bar-text3 {
   display: inline-block;
 }
+ 
 .navigation-bar-fragment4 {
   display: contents;
 }
+ 
 .navigation-bar-text4 {
   display: inline-block;
 }
+ 
 .navigation-bar-fragment5 {
   display: contents;
 }
+ 
 .navigation-bar-text7 {
   display: inline-block;
 }
+ 
 .navigation-barroot-class-name {
   background-color: #b594e1;
 }
+ 
 
+ 
 
+ 
+
+ 
+
+ 
 @media(max-width: 991px) {
   .navigation-bar-navbar-interactive {
     background-color: #b594e1;
@@ -190,6 +242,7 @@
     color: #ffffff;
   }
 }
+ 
 @media(max-width: 767px) {
   .navigation-bar-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
@@ -204,10 +257,12 @@
     justify-content: center;
   }
 }
+ 
 @media(max-width: 479px) {
   .navigation-bar-navbar-interactive {
     height: 130px;
     padding: var(--dl-space-space-unit);
+    position: relative;
     padding-left: var(--dl-space-space-twounits);
   }
   .navigation-bar-mobile-menu {

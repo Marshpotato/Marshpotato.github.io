@@ -1,0 +1,125 @@
+.wifand-christmas-special-banner-header30 {
+  gap: var(--dl-space-space-twounits);
+}
+ 
+.wifand-christmas-special-banner-image {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+ 
+.wifand-christmas-special-banner-container {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0);
+}
+ 
+.wifand-christmas-special-banner-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.wifand-christmas-special-banner-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.wifand-christmas-special-banner-text1 {
+  text-align: center;
+}
+ 
+.wifand-christmas-special-banner-text2 {
+  text-align: center;
+}
+ 
+.wifand-christmas-special-banner-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.wifand-christmas-special-banner-text3 {
+  text-align: center;
+}
+ 
+.wifand-christmas-special-banner-text4 {
+  text-align: center;
+}
+ 
+.wifand-christmas-special-banner-fragment1 {
+  display: contents;
+}
+ 
+.wifand-christmas-special-banner-text5 {
+  color: var(--dl-color-theme-neutral-light);
+  display: inline-block;
+  font-family: "ReallyPetshop";
+}
+ 
+.wifand-christmas-special-banner-fragment2 {
+  display: contents;
+}
+ 
+.wifand-christmas-special-banner-text6 {
+  display: inline-block;
+}
+ 
+.wifand-christmas-special-banner-fragment3 {
+  display: contents;
+}
+ 
+.wifand-christmas-special-banner-text7 {
+  display: inline-block;
+}
+ 
+.wifand-christmas-special-banner-fragment4 {
+  display: contents;
+}
+ 
+.wifand-christmas-special-banner-text8 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  font-family: "FredokaOne-Regular";
+}
+ 
+
+ 
+@media(max-width: 991px) {
+  .wifand-christmas-special-banner-text1 {
+    text-align: center;
+  }
+  .wifand-christmas-special-banner-text2 {
+    text-align: center;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .wifand-christmas-special-banner-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .wifand-christmas-special-banner-button1 {
+    width: 100%;
+  }
+  .wifand-christmas-special-banner-button2 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,122 @@
+.writing-header-blog-post-header3 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-color: var(--dl-color-theme-primary2);
+}
+ 
+.writing-header-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.writing-header-breadcrumbs {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+}
+ 
+.writing-header-category {
+  text-align: center;
+}
+ 
+.writing-header-content1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.writing-header-title {
+  text-align: center;
+}
+ 
+.writing-header-read-time {
+  text-align: center;
+}
+ 
+.writing-header-content2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.writing-header-author-image {
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+ 
+.writing-header-author {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+}
+ 
+.writing-header-text1 {
+  color: var(--dl-color-theme-secondary1);
+  font-size: 20px;
+}
+ 
+.writing-header-time {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+ 
+.writing-header-fragment1 {
+  display: contents;
+}
+ 
+.writing-header-text3 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  font-size: 20px;
+}
+ 
+.writing-header-fragment2 {
+  display: contents;
+}
+ 
+.writing-header-text4 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  font-family: "ReallyPetshop";
+}
+ 
+.writing-header-fragment3 {
+  display: contents;
+}
+ 
+.writing-header-text5 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+ 
+.writing-header-fragment4 {
+  display: contents;
+}
+ 
+.writing-header-text6 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+ 
+.writing-header-fragment5 {
+  display: contents;
+}
+ 
+.writing-header-text7 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+ 
+.writing-headerroot-class-name {
+  background-color: var(--dl-color-theme-primary1);
+}

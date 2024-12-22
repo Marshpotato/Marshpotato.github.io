@@ -8,12 +8,14 @@
   flex-direction: column;
   background-color: var(--dl-color-theme-accent1);
 }
+ 
 .new-picks-max-width {
   height: 1084px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+ 
 .new-picks-container1 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
@@ -22,13 +24,16 @@
   margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
 }
+ 
 .new-picks-text11 {
   text-align: center;
 }
+ 
 .new-picks-container2 {
   width: 100%;
   height: 1407px;
 }
+ 
 .new-picks-card1 {
   color: var(--dl-color-theme-neutral-light);
   height: auto;
@@ -39,14 +44,17 @@
   justify-content: center;
   background-color: var(--dl-color-theme-primary2);
 }
+ 
 .new-picks-image1 {
   width: var(--dl-size-size-medium);
   height: var(--dl-size-size-medium);
   object-fit: cover;
 }
+ 
 .new-picks-text13 {
   text-align: center;
 }
+ 
 .new-picks-card2 {
   color: var(--dl-color-theme-neutral-light);
   height: auto;
@@ -57,14 +65,17 @@
   justify-content: center;
   background-color: var(--dl-color-theme-primary1);
 }
+ 
 .new-picks-image2 {
   width: var(--dl-size-size-medium);
   height: var(--dl-size-size-medium);
   object-fit: cover;
 }
+ 
 .new-picks-text15 {
   text-align: center;
 }
+ 
 .new-picks-card3 {
   color: var(--dl-color-theme-neutral-light);
   height: auto;
@@ -75,14 +86,17 @@
   justify-content: center;
   background-color: var(--dl-color-theme-primary2);
 }
+ 
 .new-picks-image3 {
   width: var(--dl-size-size-medium);
   height: var(--dl-size-size-medium);
   object-fit: cover;
 }
+ 
 .new-picks-text17 {
   text-align: center;
 }
+ 
 .new-picks-card4 {
   color: var(--dl-color-theme-neutral-light);
   height: auto;
@@ -93,14 +107,17 @@
   justify-content: center;
   background-color: var(--dl-color-theme-primary1);
 }
+ 
 .new-picks-image4 {
   width: 83px;
   height: 97px;
   object-fit: cover;
 }
+ 
 .new-picks-text19 {
   text-align: center;
 }
+ 
 .new-picks-card5 {
   color: var(--dl-color-theme-neutral-light);
   height: auto;
@@ -111,14 +128,17 @@
   justify-content: center;
   background-color: var(--dl-color-theme-primary1);
 }
+ 
 .new-picks-image5 {
   width: var(--dl-size-size-medium);
   height: var(--dl-size-size-medium);
   object-fit: cover;
 }
+ 
 .new-picks-text21 {
   text-align: center;
 }
+ 
 .new-picks-card6 {
   color: var(--dl-color-theme-neutral-light);
   height: auto;
@@ -129,115 +149,148 @@
   justify-content: center;
   background-color: var(--dl-color-theme-primary2);
 }
+ 
 .new-picks-image6 {
   width: var(--dl-size-size-medium);
   height: var(--dl-size-size-medium);
   object-fit: cover;
 }
+ 
 .new-picks-text23 {
   text-align: center;
 }
+ 
 .new-picks-fragment10 {
   display: contents;
 }
+ 
 .new-picks-text24 {
   display: inline-block;
 }
+ 
 .new-picks-fragment11 {
   display: contents;
 }
+ 
 .new-picks-text25 {
   display: inline-block;
   font-family: "FredokaOne-Regular";
 }
+ 
 .new-picks-fragment12 {
   display: contents;
 }
+ 
 .new-picks-text26 {
   display: inline-block;
   font-family: "FredokaOne-Regular";
 }
+ 
 .new-picks-fragment13 {
   display: contents;
 }
+ 
 .new-picks-text27 {
   display: inline-block;
 }
+ 
 .new-picks-fragment14 {
   display: contents;
 }
+ 
 .new-picks-text30 {
   color: var(--dl-color-theme-secondary1);
   display: inline-block;
   font-size: 20px;
   font-family: "Poppins-Light";
 }
+ 
 .new-picks-fragment15 {
   display: contents;
 }
+ 
 .new-picks-text31 {
   display: inline-block;
 }
+ 
 .new-picks-text32 {
   font-family: "Poppins";
 }
+ 
 .new-picks-fragment16 {
   display: contents;
 }
+ 
 .new-picks-text34 {
   color: rgb(181, 148, 225);
   display: inline-block;
   font-family: "FredokaOne-Regular";
 }
+ 
 .new-picks-fragment17 {
   display: contents;
 }
+ 
 .new-picks-text35 {
   display: inline-block;
   font-family: "Poppins";
 }
+ 
 .new-picks-fragment18 {
   display: contents;
 }
+ 
 .new-picks-text36 {
   display: inline-block;
 }
+ 
 .new-picks-fragment19 {
   display: contents;
 }
+ 
 .new-picks-text39 {
   display: inline-block;
   font-family: "FredokaOne-Regular";
 }
+ 
 .new-picks-fragment20 {
   display: contents;
 }
+ 
 .new-picks-text40 {
   display: inline-block;
   font-family: "FredokaOne-Regular";
 }
+ 
 .new-picks-fragment21 {
   display: contents;
 }
+ 
 .new-picks-text41 {
   display: inline-block;
   font-family: "FredokaOne-Regular";
 }
+ 
 .new-picks-fragment22 {
   display: contents;
 }
+ 
 .new-picks-text42 {
   display: inline-block;
   font-family: "FredokaOne-Regular";
 }
+ 
 .new-picks-fragment23 {
   display: contents;
 }
+ 
 .new-picks-text43 {
   display: inline-block;
   font-family: "Poppins";
 }
+ 
 
+ 
 @media(max-width: 1200px) {
   .new-picks-image5 {
     width: 63px;
@@ -248,6 +301,7 @@
     height: 75px;
   }
 }
+ 
 @media(max-width: 991px) {
   .new-picks-layout349 {
     height: 1359px;
@@ -262,6 +316,7 @@
     height: 315px;
   }
 }
+ 
 @media(max-width: 767px) {
   .new-picks-container1 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -285,6 +340,7 @@
     width: 100%;
   }
 }
+ 
 @media(max-width: 479px) {
   .new-picks-layout349 {
     height: 1822px;

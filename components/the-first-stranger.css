@@ -1,0 +1,267 @@
+.the-first-stranger-container {
+  width: 1228px;
+  height: 3441px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ 
+.the-first-stranger-text10 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  width: 1067px;
+  height: 42px;
+  text-align: center;
+}
+ 
+.the-first-stranger-text11 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  text-align: justify;
+}
+ 
+.the-first-stranger-divider1 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  width: 1067px;
+  height: 35px;
+  text-align: center;
+}
+ 
+.the-first-stranger-text12 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  width: 1069px;
+  height: 42px;
+  text-align: center;
+}
+ 
+.the-first-stranger-text2 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  text-align: justify;
+}
+ 
+.the-first-stranger-divider2 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  width: 1068px;
+  height: 40px;
+  text-align: center;
+}
+ 
+.the-first-stranger-heading3 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  width: 1069px;
+  height: 42px;
+  text-align: center;
+}
+ 
+.the-first-stranger-text3 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  text-align: justify;
+}
+ 
+.the-first-stranger-divider3 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  width: 1068px;
+  height: 40px;
+  text-align: center;
+}
+ 
+.the-first-stranger-heading4 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  width: 1063px;
+  height: 42px;
+  text-align: center;
+}
+ 
+.the-first-stranger-text4 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  text-align: justify;
+}
+ 
+.the-first-stranger-divider4 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  width: 1068px;
+  height: 40px;
+  text-align: center;
+}
+ 
+.the-first-stranger-fragment10 {
+  display: contents;
+}
+ 
+.the-first-stranger-text13 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+ 
+.the-first-stranger-fragment11 {
+  display: contents;
+}
+ 
+.the-first-stranger-text14 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+ 
+.the-first-stranger-fragment12 {
+  display: contents;
+}
+ 
+.the-first-stranger-text22 {
+  display: inline-block;
+  font-size: 20px;
+}
+ 
+.the-first-stranger-fragment13 {
+  display: contents;
+}
+ 
+.the-first-stranger-text23 {
+  display: inline-block;
+  font-size: 20px;
+}
+ 
+.the-first-stranger-fragment14 {
+  display: contents;
+}
+ 
+.the-first-stranger-text24 {
+  display: inline-block;
+  font-size: 20px;
+}
+ 
+.the-first-stranger-fragment15 {
+  display: contents;
+}
+ 
+.the-first-stranger-text25 {
+  display: inline-block;
+  font-size: 20px;
+}
+ 
+.the-first-stranger-fragment16 {
+  display: contents;
+}
+ 
+.the-first-stranger-text26 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+ 
+.the-first-stranger-text27 {
+  line-height: 1.15;
+}
+ 
+.the-first-stranger-text28 {
+  line-height: 1.15;
+}
+ 
+.the-first-stranger-text29 {
+  line-height: 1.15;
+}
+ 
+.the-first-stranger-text30 {
+  line-height: 1.15;
+}
+ 
+.the-first-stranger-text31 {
+  line-height: 1.15;
+}
+ 
+.the-first-stranger-text32 {
+  line-height: 1.15;
+}
+ 
+.the-first-stranger-text33 {
+  line-height: 1.15;
+}
+ 
+.the-first-stranger-text34 {
+  line-height: 1.15;
+}
+ 
+.the-first-stranger-text35 {
+  line-height: 1.15;
+}
+ 
+.the-first-stranger-text36 {
+  line-height: 1.15;
+}
+ 
+.the-first-stranger-text37 {
+  line-height: 1.15;
+}
+ 
+.the-first-stranger-text38 {
+  line-height: 1.15;
+}
+ 
+.the-first-stranger-text39 {
+  line-height: 1.15;
+}
+ 
+.the-first-stranger-fragment17 {
+  display: contents;
+}
+ 
+.the-first-stranger-text42 {
+  display: inline-block;
+  font-size: 20px;
+}
+ 
+.the-first-stranger-fragment18 {
+  display: contents;
+}
+ 
+.the-first-stranger-text43 {
+  display: inline-block;
+  font-size: 20px;
+}
+ 
+.the-first-stranger-fragment19 {
+  display: contents;
+}
+ 
+.the-first-stranger-text44 {
+  display: inline-block;
+  font-size: 20px;
+}
+ 
+.the-first-stranger-fragment20 {
+  display: contents;
+}
+ 
+.the-first-stranger-text45 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+ 
+.the-first-stranger-fragment21 {
+  display: contents;
+}
+ 
+.the-first-stranger-text55 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+ 
+.the-first-strangerroot-class-name {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+}

@@ -6,7 +6,9 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-color: var(--dl-color-theme-primary2);
 }
+ 
 .footer-max-width {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
@@ -14,6 +16,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
+ 
 .footer-content {
   gap: var(--dl-space-space-fourunits);
   width: 100%;
@@ -22,11 +25,12 @@
   align-self: stretch;
   align-items: flex-start;
   flex-shrink: 0;
-  border-color: var(--dl-color-theme-neutral-dark);
+  border-color: var(--dl-color-theme-primary2);
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius4);
   margin-bottom: var(--dl-space-space-twounits);
 }
+ 
 .footer-container2 {
   flex: 0 0 auto;
   width: 500px;
@@ -34,10 +38,12 @@
   display: flex;
   flex-direction: column;
 }
+ 
 .footer-image {
   width: 200px;
   object-fit: cover;
 }
+ 
 .footer-newsletter {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 500px;
@@ -46,6 +52,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
+ 
 .footer-actions {
   gap: 16px;
   width: 100%;
@@ -54,6 +61,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
+ 
 .footer-form {
   gap: var(--dl-space-space-unit);
   width: 100%;
@@ -62,11 +70,13 @@
   align-items: stretch;
   flex-shrink: 0;
 }
+ 
 .footer-container3 {
   width: 365px;
   display: flex;
   align-items: flex-start;
 }
+ 
 .footer-text-input {
   width: 100%;
   height: 32px;
@@ -79,10 +89,12 @@
   font-weight: 400;
   background-color: transparent;
 }
+ 
 .footer-action1 {
   font-family: "Poppins-Light";
   text-decoration: none;
 }
+ 
 .footer-links {
   gap: var(--dl-space-space-twounits);
   width: 100%;
@@ -91,6 +103,7 @@
   align-items: flex-start;
   justify-content: flex-end;
 }
+ 
 .footer-column1 {
   gap: var(--dl-space-space-unit);
   width: auto;
@@ -102,6 +115,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
+ 
 .footer-footer-links1 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
@@ -109,12 +123,15 @@
   align-items: flex-start;
   flex-direction: column;
 }
+ 
 .footer-link1 {
   text-decoration: none;
 }
+ 
 .footer-link2 {
   text-decoration: none;
 }
+ 
 .footer-column2 {
   gap: var(--dl-space-space-unit);
   width: auto;
@@ -126,6 +143,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
+ 
 .footer-footer-links2 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
@@ -133,9 +151,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
+ 
 .footer-link6 {
   text-decoration: none;
 }
+ 
 .footer-column3 {
   gap: var(--dl-space-space-unit);
   width: auto;
@@ -147,6 +167,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
+ 
 .footer-social-links {
   gap: var(--dl-space-space-halfunit);
   display: flex;
@@ -154,6 +175,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
+ 
 .footer-link11 {
   gap: 12px;
   display: flex;
@@ -162,9 +184,11 @@
   align-items: center;
   flex-shrink: 0;
 }
+ 
 .footer-social-link2 {
   font-family: "Poppins";
 }
+ 
 .footer-link13 {
   gap: 12px;
   display: flex;
@@ -173,10 +197,12 @@
   align-items: center;
   flex-shrink: 0;
 }
+ 
 .footer-social-link3 {
   font-family: "Poppins";
   text-decoration: none;
 }
+ 
 .footer-link14 {
   gap: 12px;
   display: flex;
@@ -186,10 +212,12 @@
   flex-shrink: 0;
   padding-left: 8px 0;
 }
+ 
 .footer-social-link51 {
   font-family: "Poppins";
   text-decoration: none;
 }
+ 
 .footer-link15 {
   gap: 12px;
   display: flex;
@@ -199,10 +227,12 @@
   flex-shrink: 0;
   padding-left: 8px 0;
 }
+ 
 .footer-social-link52 {
   font-family: "Poppins";
   text-decoration: none;
 }
+ 
 .footer-credits {
   gap: var(--dl-space-space-twounits);
   width: 100%;
@@ -211,6 +241,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
+ 
 .footer-row {
   display: flex;
   align-self: stretch;
@@ -218,118 +249,160 @@
   flex-shrink: 0;
   justify-content: space-between;
 }
+ 
 .footer-footer-links3 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
 }
+ 
 .footer-link12 {
   text-decoration: none;
 }
+ 
 .footer-fragment10 {
   display: contents;
 }
+ 
 .footer-text15 {
   color: #922727;
   display: inline-block;
 }
+ 
 .footer-fragment11 {
   display: contents;
 }
+ 
 .footer-text16 {
   display: inline-block;
 }
+ 
 .footer-fragment12 {
   display: contents;
 }
+ 
 .footer-text17 {
   display: inline-block;
 }
+ 
 .footer-fragment13 {
   display: contents;
 }
+ 
 .footer-text18 {
   display: inline-block;
 }
+ 
 .footer-fragment14 {
   display: contents;
 }
+ 
 .footer-text19 {
   display: inline-block;
 }
+ 
 .footer-fragment15 {
   display: contents;
 }
+ 
 .footer-text20 {
   display: inline-block;
 }
+ 
 .footer-fragment16 {
   display: contents;
 }
+ 
 .footer-text21 {
   display: inline-block;
 }
+ 
 .footer-fragment17 {
   display: contents;
 }
+ 
 .footer-text22 {
   display: inline-block;
 }
+ 
 .footer-fragment18 {
   display: contents;
 }
+ 
 .footer-text23 {
   display: inline-block;
 }
+ 
 .footer-fragment19 {
   display: contents;
 }
+ 
 .footer-text24 {
   display: inline-block;
 }
+ 
 .footer-fragment20 {
   display: contents;
 }
+ 
 .footer-text25 {
   display: inline-block;
 }
+ 
 .footer-fragment21 {
   display: contents;
 }
+ 
 .footer-text26 {
   display: inline-block;
 }
+ 
 .footer-fragment22 {
   display: contents;
 }
+ 
 .footer-text27 {
   display: inline-block;
 }
+ 
 .footer-fragment23 {
   display: contents;
 }
+ 
 .footer-text28 {
   display: inline-block;
 }
+ 
 .footer-fragment24 {
   display: contents;
 }
+ 
 .footer-text29 {
   display: inline-block;
 }
+ 
 .footer-fragment25 {
   display: contents;
 }
+ 
 .footer-text30 {
   display: inline-block;
 }
+ 
 .footer-fragment26 {
   display: contents;
 }
+ 
 .footer-text31 {
   display: inline-block;
 }
+ 
 
+ 
+
+ 
+
+ 
 @media(max-width: 991px) {
   .footer-container2 {
     width: 389px;
@@ -356,6 +429,7 @@
     padding-bottom: var(--dl-space-space-halfunit);
   }
 }
+ 
 @media(max-width: 767px) {
   .footer-content {
     flex-direction: column;
@@ -410,6 +484,7 @@
     flex-direction: column;
   }
 }
+ 
 @media(max-width: 479px) {
   .footer-actions {
     width: 100%;
