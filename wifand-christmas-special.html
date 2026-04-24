@@ -1,7 +1,197 @@
-function showTime() {
-	document.getElementById('currentTime').innerHTML = new Date().toUTCString();
-}
-showTime();
-setInterval(function () {
-	showTime();
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14-Day Challenge</title>
+    <style>
+        body {
+            font-family: Sans-Serif;
+            background-color: #CF9FFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
 
+        /* The Grid */
+        #calendar {
+            display: grid;
+            /* This ensures 2 columns on mobile, 4 on desktop */
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 15px;
+            width: 100%;
+            max-width: 800px;
+            margin-top: 20px;
+        }
+
+        /* The Day Boxes */
+        .day-card {
+            background: white;
+            height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 12px;
+            border: 2px solid #ddd;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .day-card:hover { border-color: #6366f1; transform: scale(1.02); }
+
+        .day-card.completed {
+            background-color: #dcfce7;
+            border-color: #22c55e;
+        }
+
+        .day-number { font-size: 1.5rem; font-weight: bold; }
+        .status { font-size: 0.7rem; color: #666; margin-top: 5px; }
+
+        /* Modal Popup */
+        .modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.7);
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            max-width: 400px;
+            width: 85%;
+            text-align: center;
+        }
+
+        .prize-box {
+            margin: 20px 0;
+            padding: 15px;
+            background: #fff1f2;
+            color: #be123c;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+
+        button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .btn-done { background: #22c55e; color: white; width: 100%; }
+        .btn-close { background: #94a3b8; color: white; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <h1>📅 14-Day Secret Project Rush</h1>
+    <p>Click a day to view your task and get an objective for that day. As Japan is slowl approaching we need to make room for all your 
+    new and Japan things. So we are going to complete a cleanot extravaganaza.
+   </p>
+   <p> 
+    To keep the Huband accountable, he will have 3 days to get you, your deserved prize, if he fails to do so he will need to complete 
+    task for you and drop the next 2 rewards all at once</p>
+    
+  <p>If these task are not completed by the time we have to go to Japan then it is still applicable to be completed when we arrive back.</p>
+
+    <div id="calendar">
+        <p>Loading days... If you see this, check your browser's JS settings.</p>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content" id="modal-inner"></div>
+    </div>
+    
+    
+  <button onclick="resetCalendar()" style="background: #ef4444; color: white; margin-bottom: 20px;">
+    Reset All Days
+  </button>
+
+    <script>
+        const tasks = [
+            { day: 1, task: "Clean out desk", prize: "Creativity Box 1" },
+            { day: 2, task: "Work on Productivity Toolkit", prize: "Cozy Book Expansions Kit V1" },
+            { day: 3, task: "Clean out Witchy Section", prize: "Tinkerbell Tarot Deck" },
+            { day: 4, task: "Clean out Anime memorabilia", prize: "Stylus Box Sussy Edition" },
+            { day: 5, task: "Clean out old papers", prize: "The Paper trials Box" },
+            { day: 6, task: "Video Game Clearout", prize: "Steam Wishlist, Wishning" },
+            { day: 7, task: "Makeup Cleanout", prize: "Bewjewled Box" },
+            { day: 8, task: "TTRPG and Boardgames", prize: "The Gamer's Box" },
+            { day: 9, task: "Device Cleanout", prize: "The USB of POWER" },
+            { day: 10, task: "Wardrobe sorting", prize: "Bag of Fortune" },
+            { day: 11, task: "Fully Clean Colouring Section", prize: "The Colours Box" },
+            { day: 12, task: "Clean out all Creativity tools and things", prize: "Studio Baddie Gift Box" }
+        ];
+
+        const grid = document.getElementById('calendar');
+        const modal = document.getElementById('modal');
+        const modalInner = document.getElementById('modal-inner');
+
+        function drawGrid() {
+            grid.innerHTML = ''; // Clear "Loading" text
+            tasks.forEach(item => {
+                const done = localStorage.getItem('day-' + item.day);
+                const div = document.createElement('div');
+                div.className = 'day-card' + (done ? ' completed' : '');
+                div.innerHTML = `
+                    <span class="day-number">Day ${item.day}</span>
+                    <span class="status">${done ? '✅ DONE' : '❓ TASK'}</span>
+                `;
+                div.onclick = () => openTask(item);
+                grid.appendChild(div);
+            });
+        }
+
+        function openTask(item) {
+            const done = localStorage.getItem('day-' + item.day);
+            
+            if (done) {
+                modalInner.innerHTML = `
+                    <h2>Day ${item.day} Prize</h2>
+                    <div class="prize-box">🎁 ${item.prize}</div>
+                    <button class="btn-close" onclick="closeM()">Close</button>
+                `;
+            } else {
+                modalInner.innerHTML = `
+                    <h2>Day ${item.day} Task</h2>
+                    <p style="font-size: 1.2rem;">${item.task}</p>
+                    <button class="btn-done" onclick="markDone(${item.day}, '${item.prize}')">I COMPLETED THIS</button>
+                    <button class="btn-close" onclick="closeM()">Maybe Later</button>
+                `;
+            }
+            modal.style.display = 'flex';
+        }
+
+        function markDone(day, prize) {
+            localStorage.setItem('day-' + day, 'true');
+            modalInner.innerHTML = `
+                <h2>🎉 Well Done!</h2>
+                <p>Your reward is unlocked:</p>
+                <div class="prize-box">🎁 ${prize}</div>
+                <button class="btn-close" onclick="closeM()">Awesome!</button>
+            `;
+            drawGrid();
+        }
+
+        function closeM() { modal.style.display = 'none'; }
+
+        // Start the app
+        drawGrid();
+      
+      function resetCalendar() {
+        if(confirm("Are you sure you want to reset all progress?")) {
+        localStorage.clear(); // This wipes the memory
+        drawGrid();           // This redraws the boxes as "❓ TASK"
+    }
+}
+    </script>
+</body>
+</html>
